@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import pages.Base;
 import pages.HomePage;
 
-public class TestClass extends DriverSetup {
+public class TestClass extends DriverSetup, ExtentReportClass{
 
 	HomePage hp;
 
