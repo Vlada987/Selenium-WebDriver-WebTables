@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_Selenium_WebTables">
+
+ <listeners>
+     <listener class-name="tests.ExtentReportClass"/>
+</listeners>
+
+  <test thread-count="5" name="Test01">
+    <classes>
+      <class name="tests.TestClass">
+      
+      <methods>
+      <include name="test06_search" /> 
+      </methods>
+      
+      </class>
+    </classes>
+  </test> <!-- Test01 -->
+</suite> <!-- Suite_Selenium_WebTables -->
